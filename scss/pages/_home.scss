@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-  background-color: #321325;
+  background-color: $dark-imperial-blue;
 }
 
 .sidenav {
@@ -16,17 +16,17 @@ body {
 
 #home-nav {
   @include nav;
-  background-color: #321325;
+  background-color: $dark-imperial-blue;
   a {
-    color: #F3E9DC;
+    color: $snow;
     &:hover {
-      color: steelblue;
+      color: $pearl-aqua;
     }
   }
 }
 
 .header {
-  color: #F3E9DC;
+  color: $snow;
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -38,12 +38,12 @@ body {
   padding: 0 14em 0 14em;
   @media screen and (max-width: 525px) {
     padding: 1em 2em 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   h1 {
-    margin-bottom: 2em;
-    font-family: 'Unkempt', cursive;
-    text-shadow: 5px 5px 1px #250E1B;
+    margin-bottom: 1em;
+    font-family: 'Syncopate', sans-serif;
+    text-shadow: 5px 5px 1px $eerie-black;
   }
   .hamburger {
     align-self: flex-start;
@@ -75,7 +75,7 @@ body {
       a {
         text-decoration: none;
       }
-      background-color: #197278;
+      background-color: $deep-tuscan-red;
       height: 20em;
       width: 22em;
       @media screen and (max-width: 1023px) {
@@ -102,7 +102,7 @@ body {
       border: .063em solid white;
       p {
         padding: 0 3em 2em 0;
-        font-family: 'Ubuntu', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-weight: 300;
         text-shadow: 0 0 1px black;
         color: white;
@@ -139,7 +139,7 @@ body {
       }
     }
     #kamasi {
-      background-image: url('../img/kamasi2.png');
+      // background-image: url('../img/kamasi2.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 1029px) {
@@ -149,22 +149,22 @@ body {
       }
     }
     #tribe {
-      background-image: url('../img/tribeminusphife.png');
+      // background-image: url('../img/tribeminusphife.png');
       background-position: center;
       background-size: cover;
     }
     #rihanna {
-      background-image: url('../img/rihanna.png');
+      // background-image: url('../img/rihanna.png');
       background-position: center;
       background-size: cover;
     }
     #jblake {
-      background-image: url('../img/jblake.png');
+      // background-image: url('../img/jblake.png');
       background-position: center;
       background-size: cover;
     }
     #solange {
-      background-image: url('../img/solange.png');
+      // background-image: url('../img/solange.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 1029px) {
@@ -177,7 +177,7 @@ body {
       }
     }
     #flume {
-      background-image: url('../img/flume.png');
+      // background-image: url('../img/flume.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 415px) {
@@ -185,7 +185,7 @@ body {
       }
     }
     #cudi {
-      background-image: url('../img/cudi.png');
+      // background-image: url('../img/cudi.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 415px) {
@@ -193,7 +193,7 @@ body {
       }
     }
     #stetsonneufeld {
-      background-image: url('../img/stetsonneufeld.png');
+      // background-image: url('../img/stetsonneufeld.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 1029px) {
@@ -202,19 +202,8 @@ body {
         }
       }
     }
-    #beyonce {
-      background-image: url('../img/bey.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 415px) {
-        background-position: top;
-        p {
-          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
-        }
-      }
-    }
     #damrau {
-      background-image: url('../img/damrau.png');
+      // background-image: url('../img/damrau.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 415px) {
@@ -222,30 +211,35 @@ body {
       }
     }
     #anohni {
-      background-image: url('../img/anohni.png');
+      // background-image: url('../img/anohni.png');
       background-position: center;
       background-size: cover;
     }
     #frank {
-      background-image: url('../img/frank.png');
+      // background-image: url('../img/frank.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 415px) {
         background-position: top;
       }
     }
+    #beyonce {
+      // background-image: url('../img/anohni.png');
+      background-position: center;
+      background-size: cover;
+    }
     #kendrick {
-      background-image: url('../img/kendrick.png');
+      // background-image: url('../img/kendrick.png');
       background-position: 42%;
       background-size: cover;
     }
     #weeknd {
-      background-image: url('../img/weeknd.png');
+      // background-image: url('../img/weeknd.png');
       background-position: center;
       background-size: cover;
     }
     #joanna {
-      background-image: url('../img/joanna.png');
+      // background-image: url('../img/joanna.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 1029px) {
