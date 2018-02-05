@@ -75,7 +75,7 @@ body {
       a {
         text-decoration: none;
       }
-      background-color: $deep-tuscan-red;
+      background-color: $rich-black;
       height: 20em;
       width: 22em;
       @media screen and (max-width: 1023px) {
@@ -138,8 +138,8 @@ body {
         }
       }
     }
-    #kamasi {
-      // background-image: url('../img/kamasi2.png');
+    #julia {
+      background-image: url('../img/julia-fischer.png');
       background-position: center;
       background-size: cover;
       @media screen and (max-width: 1029px) {
@@ -148,8 +148,8 @@ body {
         }
       }
     }
-    #tribe {
-      // background-image: url('../img/tribeminusphife.png');
+    #droeloe {
+      background-image: url('../img/droeloe.png');
       background-position: center;
       background-size: cover;
     }
