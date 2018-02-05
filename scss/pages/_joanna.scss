@@ -1,0 +1,40 @@
+#j-wrapper {
+  background-color: $falu-red;
+}
+
+#j-mobile-nav {
+  @include mobilenav;
+  background-color: $seal-brown;
+  a {
+    color: $deer;
+  }
+}
+
+#j-nav {
+  @include nav;
+  background-color: $falu-red;
+  a {
+    color: $deer;
+    &:hover {
+      color: $tuscan;
+    }
+  }
+}
+
+#j-header {
+@include artist-header;
+  color: $deer;
+}
+
+#j-content {
+  @include content;
+  color: $deer;
+  .lyrics {
+    a {
+      color: $tuscan;
+      &:hover {
+        color: $seal-brown;
+      }
+    }  
+  }
+}

@@ -1,0 +1,43 @@
+#f-wrapper {
+  background-color: $dark-purple;
+}
+
+#f-mobile-nav {
+  @include mobilenav;
+  background-color: $van-dyke-brown;
+  a {
+    color: $carmine-pink;
+  }
+}
+
+#f-nav {
+  @include nav;
+  background-color: $dark-purple;
+  a {
+    color: $manatee;
+    &:hover {
+      color: $carmine-pink;
+    }
+  }
+}
+
+#f-header {
+@include artist-header;
+  color: $manatee;
+}
+
+#f-content {
+  @include content;
+  color: $manatee;
+  .lyrics {
+    a {
+    color: $carmine-pink;
+      &:hover {
+        color: $van-dyke-brown;
+      }
+    }
+  }
+  #tove-lo {
+    @include feat-artist;
+  }
+}

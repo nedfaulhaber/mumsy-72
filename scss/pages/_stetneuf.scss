@@ -1,0 +1,41 @@
+#sn-wrapper {
+  background-color: $licorice;
+}
+
+#sn-mobile-nav {
+  @include mobilenav;
+  background-color: $cinereous;
+  a {
+    color: $dutch-white;
+  }
+}
+
+#sn-nav {
+  @include nav;
+  background-color: $licorice;
+  a {
+    color: $smoky-topaz;
+    &:hover {
+      color: $dutch-white;
+    }
+  }
+}
+
+#sn-header {
+  @include artist-header;
+  color: $smoky-topaz;
+  #stetneuf {
+    @media screen and (max-width: 600px) {
+      text-align: center;
+      margin: 0 2em 0;
+    }
+  }
+  #wont-be {
+    @include long-song;
+  }
+}
+
+#sn-content {
+  @include content;
+  color: $smoky-topaz;
+}

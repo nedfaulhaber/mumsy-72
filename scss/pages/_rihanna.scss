@@ -1,0 +1,40 @@
+#r-wrapper {
+  background-color: $rich-black;
+}
+
+#r-mobile-nav {
+  @include mobilenav;
+  background-color: $byzantine;
+  a {
+    color: $rich-black;
+  }
+}
+
+#r-nav {
+  @include nav;
+  background-color: $rich-black;
+  a {
+    color: $rackley;
+    &:hover {
+      color: $byzantine;
+    }
+  }
+}
+
+#r-header {
+@include artist-header;
+  color: $rackley;
+}
+
+#r-content {
+  @include content;
+  color: $rackley;
+  .lyrics {
+    a {
+      color: $byzantine;
+      &:hover {
+        color: #C8BFC7;
+      }
+    }
+  }
+}

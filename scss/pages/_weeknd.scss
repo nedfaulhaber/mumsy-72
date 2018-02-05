@@ -1,0 +1,55 @@
+#w-wrapper {
+  background-color: $smoky-black;
+}
+
+#w-mobile-nav {
+  @include mobilenav;
+  background-color: $dark-pastel-blue;
+  a {
+    color: $smoky-black;
+  }
+}
+
+#w-nav {
+  @include nav;
+  background-color: $smoky-black;
+  a {
+    color: $dark-pastel-blue;
+    &:hover {
+      color: $antique-brass;
+    }
+  }
+}
+
+#w-header {
+  @include artist-header;
+  color: $dark-pastel-blue;
+  #feel-it {
+    @include long-song;
+    line-height: 1.2em;
+  }
+}
+
+#w-content {
+  @include content;
+  color: $dark-pastel-blue;
+  .info-link {
+    a {
+    color: $antique-brass;
+      &:hover {
+        color: $isabelline;
+      }
+    }
+  }
+  .lyrics {
+    a {
+      color: $antique-brass;
+      &:hover {
+        color: $isabelline;
+      }
+    }
+  }
+  #daft-punk {
+    @include feat-artist;
+  }
+}

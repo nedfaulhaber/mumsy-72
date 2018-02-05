@@ -1,0 +1,261 @@
+body {
+  background-color: black;
+}
+
+#wrapper {
+  background-color: #321325;
+}
+
+.sidenav {
+  @include mobilenav;
+  background-color: #197278;
+  a {
+    color: #F3E9DC;
+  }
+}
+
+#home-nav {
+  @include nav;
+  background-color: #321325;
+  a {
+    color: #F3E9DC;
+    &:hover {
+      color: steelblue;
+    }
+  }
+}
+
+.header {
+  color: #F3E9DC;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0 14em 0 14em;
+  @media screen and (max-width: 525px) {
+    padding: 1em 2em 0;
+    font-size: 1.5em;
+  }
+  h1 {
+    margin-bottom: 2em;
+    font-family: 'Unkempt', cursive;
+    text-shadow: 5px 5px 1px #250E1B;
+  }
+  .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer;
+    @media screen and (min-width: 525px) {
+      display: none;
+      height: 0;
+      width: 0;
+    }
+  }
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+  .row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @media only screen and (max-width: 625px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    .image {
+      a {
+        text-decoration: none;
+      }
+      background-color: #197278;
+      height: 20em;
+      width: 22em;
+      @media screen and (max-width: 1023px) {
+        width: 27em;
+      }
+      @media screen and (min-width: 2300px) {
+        width: 25em;
+      }
+      @media screen and (max-width: 1022px) {
+        width: 23em;
+      }
+      @media only screen and (max-width: 625px) {
+        width: 75%;
+      }
+      @media only screen and (max-width: 1029px) {
+        a {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+        }
+      }
+      border: .063em solid white;
+      p {
+        padding: 0 3em 2em 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+        text-shadow: 0 0 1px black;
+        color: white;
+
+        @media screen and (min-width: 1030px) {
+          padding: 0;
+          opacity: 0;
+          color: white;
+          transition: .2s;
+          text-shadow: 0 0 1px black;
+          position: relative;
+          z-index: 2;
+          text-transform: uppercase;
+          margin: 0;
+          text-align: center;
+          line-height: 20em;
+          &:hover {
+            opacity: 1;
+          }
+          &:after, &:before {
+            z-index: -1;
+            transition: .2s;
+            content: "";
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+    }
+    #kamasi {
+      background-image: url('../img/kamasi2.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
+        }
+      }
+    }
+    #tribe {
+      background-image: url('../img/tribeminusphife.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #rihanna {
+      background-image: url('../img/rihanna.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #jblake {
+      background-image: url('../img/jblake.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #solange {
+      background-image: url('../img/solange.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+        }
+      }
+      @media screen and (max-width: 415px) {
+        background-position: 0 25%;
+      }
+    }
+    #flume {
+      background-image: url('../img/flume.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: 0 30%;
+      }
+    }
+    #cudi {
+      background-image: url('../img/cudi.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: 0 12%;
+      }
+    }
+    #stetsonneufeld {
+      background-image: url('../img/stetsonneufeld.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          padding-right: .4em;
+        }
+      }
+    }
+    #beyonce {
+      background-image: url('../img/bey.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: top;
+        p {
+          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+        }
+      }
+    }
+    #damrau {
+      background-image: url('../img/damrau.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: top;
+      }
+    }
+    #anohni {
+      background-image: url('../img/anohni.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #frank {
+      background-image: url('../img/frank.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 415px) {
+        background-position: top;
+      }
+    }
+    #kendrick {
+      background-image: url('../img/kendrick.png');
+      background-position: 42%;
+      background-size: cover;
+    }
+    #weeknd {
+      background-image: url('../img/weeknd.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #joanna {
+      background-image: url('../img/joanna.png');
+      background-position: center;
+      background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+        }
+        p {
+          padding-right: 1em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+#kl-wrapper {
+  background-color: $liberty;
+}
+
+#kl-mobile-nav {
+  @include mobilenav;
+  background-color: $eerie-black;
+  a {
+    color: $liberty;
+  }
+}
+
+#kl-nav {
+  @include nav;
+  background-color: $liberty;
+  a {
+    color: white;
+    &:hover {
+      color: $cherry;
+    }
+  }
+}
+
+#kl-header {
+  @include artist-header;
+  color: white;
+  #alright {
+  @include long-song;
+  line-height: 1.2em;
+  }
+}
+
+#kl-content {
+  @include content;
+  color: white;
+  .info-link {
+    a {
+    color: $cherry;
+    &:hover {
+      color: $eerie-black;
+    }
+    }
+  }
+  .lyrics {
+    a {
+      color: $cherry;
+      &:hover {
+        color: $eerie-black;
+      }
+    }
+  }
+  #pharrell {
+    @include feat-artist;
+  }
+}

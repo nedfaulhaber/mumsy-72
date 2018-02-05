@@ -1,0 +1,47 @@
+#c-wrapper {
+  background-color: $dark-lavender;
+}
+
+#c-mobile-nav {
+  @include mobilenav;
+  background-color: $old-burgundy;
+  a {
+    color: $princeton-orange;
+  }
+}
+
+#c-nav {
+  @include nav;
+  background-color: $dark-lavender;
+  a {
+    color: $queen-pink;
+    &:hover {
+      color: $princeton-orange;
+    }
+  }
+}
+
+#c-header {
+  @include artist-header;
+  color: $queen-pink;
+  #by-design {
+    @include long-song;
+    line-height: 1.2em;
+  }
+}
+
+#c-content {
+  @include content;
+  color: $queen-pink;
+  .lyrics {
+    a {
+    color: $princeton-orange;
+      &:hover {
+        color: $old-burgundy;
+      }
+    }
+  }
+  #andre {
+    @include feat-artist;
+  }
+}

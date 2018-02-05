@@ -1,0 +1,46 @@
+#a-wrapper {
+  background-color: $gunmetal;
+}
+
+#a-mobile-nav {
+  @include mobilenav;
+  background-color: $licorice;
+  a {
+    color: $android-green;
+  }
+}
+
+#a-nav {
+  @include nav;
+  background-color: $gunmetal;
+  a {
+    color: $gainsboro;
+    &:hover {
+      color: $android-green;
+    }
+  }
+}
+
+#a-header {
+@include artist-header;
+  color: $gainsboro;
+}
+
+#a-content {
+  @include content;
+  color: $gainsboro;
+  .info-link {
+    a {
+    color: $android-green;
+      &:hover {
+        color: $pantone-red;
+      }
+    }
+  }
+  .lyrics {
+    color: $android-green;
+      &:hover {
+        color: $pantone-red;
+      }
+  }
+}

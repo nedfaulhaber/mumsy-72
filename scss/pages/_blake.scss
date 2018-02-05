@@ -1,0 +1,48 @@
+#b-wrapper {
+  background-color: $registration;
+}
+
+#b-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#b-nav {
+  @include nav;
+  background-color: $registration;
+  a {
+    color: $spanish-gray;
+    &:hover {
+      color: $med-blue;
+    }
+  }
+}
+
+#b-header {
+@include artist-header;
+  color: $spanish-gray;
+}
+
+#b-content {
+  @include content;
+  color: $spanish-gray;
+  .info-link {
+    a {
+    color: $med-blue;
+      &:hover {
+        color: $pale-taupe;
+      }
+    }
+  }
+  .lyrics {
+    a {
+    color: $med-blue;
+      &:hover {
+        color: $pale-taupe;
+      }
+    }  
+  }
+}

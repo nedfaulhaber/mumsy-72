@@ -1,0 +1,63 @@
+#bey-wrapper {
+  background-color: $antique-ruby;
+}
+
+#bey-mobile-nav {
+  @include mobilenav;
+  background-color: $cadet-grey;
+  a {
+    color: $papaya-whip;
+  }
+}
+
+#bey-nav {
+  @include nav;
+  background-color: $antique-ruby;
+  a {
+    color: $papaya-whip;
+    &:hover {
+      color: $cadet-grey;
+    }
+  }
+}
+
+#bey-header {
+  @include artist-header;
+  color: $papaya-whip;
+  #freedom {
+    @include long-song;
+  }
+}
+
+#bey-content {
+  @include content;
+  color: $papaya-whip;
+  .info-link {
+    a {
+    color: #BFDBF7;
+      &:hover {
+        color: $taupe;
+      }
+    }
+  }
+  .lyrics {
+    a {
+    color: #BFDBF7;
+      &:hover {
+        color: $taupe;
+      }
+    }
+  }
+  #bey-ken {
+    width: 40vw;
+    @media screen and (max-width: 1024px) {
+      width: 50vw;
+    }
+    @media screen and (max-width: 600px) {
+      display: flex;
+      margin: 0 0 2em;
+      width: 100%;
+      float: none;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+#k-wrapper {
+  background-color: $tan;
+}
+
+#k-mobile-nav {
+  @include mobilenav;
+  background-color: $brown;
+  a {
+    color: $tan;
+  }
+}
+
+#k-nav {
+  @include nav;
+  background-color: $tan;
+  a {
+    color: $brown;
+    &:hover {
+      color: $dust-storm;
+    }
+  }
+}
+
+#k-header {
+@include artist-header;
+  color: $brown;
+}
+
+#k-content {
+  @include content;
+  color: $brown;
+}
