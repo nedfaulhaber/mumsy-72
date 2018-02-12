@@ -142,114 +142,76 @@ body {
       background-image: url('../img/julia-fischer.png');
       background-position: center;
       background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black;
-        }
-      }
     }
     #droeloe {
       background-image: url('../img/droeloe.png');
       background-position: center;
       background-size: cover;
     }
-    #rihanna {
-      // background-image: url('../img/rihanna.png');
+    #camila {
+      background-image: url('../img/camila.png');
+      background-position: 0 0%;
+      background-size: cover;
+    }
+    #vince {
+      background-image: url('../img/vince-home.png');
       background-position: center;
       background-size: cover;
     }
-    #jblake {
-      // background-image: url('../img/jblake.png');
+    #halsey {
+      background-image: url('../img/halsey.png');
       background-position: center;
       background-size: cover;
-    }
-    #solange {
-      // background-image: url('../img/solange.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
-        }
       }
-      @media screen and (max-width: 415px) {
-        background-position: 0 25%;
-      }
-    }
-    #flume {
-      // background-image: url('../img/flume.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 415px) {
-        background-position: 0 30%;
-      }
-    }
-    #cudi {
-      // background-image: url('../img/cudi.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 415px) {
-        background-position: 0 12%;
-      }
-    }
-    #stetsonneufeld {
-      // background-image: url('../img/stetsonneufeld.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          padding-right: .4em;
-        }
-      }
-    }
-    #damrau {
-      // background-image: url('../img/damrau.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 415px) {
-        background-position: top;
-      }
-    }
-    #anohni {
-      // background-image: url('../img/anohni.png');
+    #lin-manuel {
+      background-image: url('../img/lin-manuel.png');
       background-position: center;
       background-size: cover;
     }
-    #frank {
-      // background-image: url('../img/frank.png');
-      background-position: center;
-      background-size: cover;
-      @media screen and (max-width: 415px) {
-        background-position: top;
-      }
-    }
-    #beyonce {
-      // background-image: url('../img/anohni.png');
+    #rezz {
+      background-image: url('../img/REZZ.png');
       background-position: center;
       background-size: cover;
     }
-    #kendrick {
-      // background-image: url('../img/kendrick.png');
+    #van-dyke {
+      background-image: url('../img/van-dyke.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #lil-uzi {
+      background-image: url('../img/lil-uzi.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #ingrid {
+      background-image: url('../img/ingrid.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #charli {
+      background-image: url('../img/charli.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #yitaku {
+      background-image: url('../img/yitaku.png');
+      background-position: center;
+      background-size: cover;
+    }
+    #partynextdoor {
+      background-image: url('../img/partynextdoor.png');
       background-position: 42%;
       background-size: cover;
     }
-    #weeknd {
-      // background-image: url('../img/weeknd.png');
+    #bird-bee {
+      background-image: url('../img/bird-bee.png');
       background-position: center;
       background-size: cover;
     }
-    #joanna {
-      // background-image: url('../img/joanna.png');
+    #james {
+      background-image: url('../img/james.png');
       background-position: center;
       background-size: cover;
-      @media screen and (max-width: 1029px) {
-        p {
-          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
-        }
-        p {
-          padding-right: 1em;
-        }
-      }
     }
   }
 }

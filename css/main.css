@@ -299,78 +299,62 @@ body {
       background-image: url("../img/julia-fischer.png");
       background-position: center;
       background-size: cover; }
-      @media screen and (max-width: 1029px) {
-        .gallery .row #julia p {
-          text-shadow: -2px 0 2px black, 0 2px 2px black, 2px 0 2px black, 0 -2px 2px black; } }
     .gallery .row #droeloe {
       background-image: url("../img/droeloe.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #rihanna {
+    .gallery .row #camila {
+      background-image: url("../img/camila.png");
+      background-position: 0 0%;
+      background-size: cover; }
+    .gallery .row #vince {
+      background-image: url("../img/vince-home.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #jblake {
+    .gallery .row #halsey {
+      background-image: url("../img/halsey.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #solange {
+    .gallery .row #lin-manuel {
+      background-image: url("../img/lin-manuel.png");
       background-position: center;
       background-size: cover; }
-      @media screen and (max-width: 1029px) {
-        .gallery .row #solange p {
-          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; } }
-      @media screen and (max-width: 415px) {
-        .gallery .row #solange {
-          background-position: 0 25%; } }
-    .gallery .row #flume {
+    .gallery .row #rezz {
+      background-image: url("../img/REZZ.png");
       background-position: center;
       background-size: cover; }
-      @media screen and (max-width: 415px) {
-        .gallery .row #flume {
-          background-position: 0 30%; } }
-    .gallery .row #cudi {
+    .gallery .row #van-dyke {
+      background-image: url("../img/van-dyke.png");
       background-position: center;
       background-size: cover; }
-      @media screen and (max-width: 415px) {
-        .gallery .row #cudi {
-          background-position: 0 12%; } }
-    .gallery .row #stetsonneufeld {
+    .gallery .row #lil-uzi {
+      background-image: url("../img/lil-uzi.png");
       background-position: center;
       background-size: cover; }
-      @media screen and (max-width: 1029px) {
-        .gallery .row #stetsonneufeld p {
-          padding-right: .4em; } }
-    .gallery .row #damrau {
+    .gallery .row #ingrid {
+      background-image: url("../img/ingrid.png");
       background-position: center;
       background-size: cover; }
-      @media screen and (max-width: 415px) {
-        .gallery .row #damrau {
-          background-position: top; } }
-    .gallery .row #anohni {
+    .gallery .row #charli {
+      background-image: url("../img/charli.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #frank {
+    .gallery .row #yitaku {
+      background-image: url("../img/yitaku.png");
       background-position: center;
       background-size: cover; }
-      @media screen and (max-width: 415px) {
-        .gallery .row #frank {
-          background-position: top; } }
-    .gallery .row #beyonce {
-      background-position: center;
-      background-size: cover; }
-    .gallery .row #kendrick {
+    .gallery .row #partynextdoor {
+      background-image: url("../img/partynextdoor.png");
       background-position: 42%;
       background-size: cover; }
-    .gallery .row #weeknd {
+    .gallery .row #bird-bee {
+      background-image: url("../img/bird-bee.png");
       background-position: center;
       background-size: cover; }
-    .gallery .row #joanna {
+    .gallery .row #james {
+      background-image: url("../img/james.png");
       background-position: center;
       background-size: cover; }
-      @media screen and (max-width: 1029px) {
-        .gallery .row #joanna p {
-          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; }
-        .gallery .row #joanna p {
-          padding-right: 1em; } }
 
 #k-wrapper {
   background-color: #976023; }
