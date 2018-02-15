@@ -1,18 +1,18 @@
-#r-wrapper {
-  background-color: $rich-black;
+#cc-wrapper {
+  background-color: $eerie-black;
 }
 
-#r-mobile-nav {
-  @include mobilenav;
-  background-color: $byzantine;
-  a {
-    color: $rich-black;
-  }
-}
+// #cc-mobile-nav {
+//   @include mobilenav;
+//   background-color: $byzantine;
+//   a {
+//     color: $rich-black;
+//   }
+// }
 
-#r-nav {
+#cc-nav {
   @include nav;
-  background-color: $rich-black;
+  background-color: $eerie-black;
   a {
     color: $rackley;
     &:hover {
@@ -21,12 +21,12 @@
   }
 }
 
-#r-header {
+#cc-header {
 @include artist-header;
   color: $rackley;
 }
 
-#r-content {
+#cc-content {
   @include content;
   color: $rackley;
   .lyrics {
