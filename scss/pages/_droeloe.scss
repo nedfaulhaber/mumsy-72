@@ -1,0 +1,46 @@
+#d-wrapper {
+  background-color: #606c38;
+}
+
+// #d-mobile-nav {
+//   @include mobilenav;
+//   background-color: $smoky-black;
+//   a {
+//     color: $opera-mauve;
+//   }
+// }
+
+#d-nav {
+  @include nav;
+  background-color: #606c38;
+  a {
+    color: $smoky-black;
+    &:hover {
+      color: #813D4F;
+    }
+  }
+}
+
+#d-header {
+  @include artist-header;
+  color: $smoky-black;
+}
+
+#d-content {
+  @include content;
+  #d-loe {
+    width: 37vw;
+  }
+  color: $smoky-black;
+  #nevve {
+    @include feat-artist;
+  }
+  .lyrics {
+    a {
+      color: $tigers-eye;
+      &:hover {
+        color: $sienna;
+      }
+    }
+  }
+}

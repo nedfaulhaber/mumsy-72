@@ -1,0 +1,117 @@
+#mo-wrapper {
+  background-color: $fiery-rose;
+}
+
+#mo-mobile-nav {
+  @include mobilenav;
+  background-color: $plump-purple;
+  a {
+    color: $pink-lace;
+  }
+}
+
+#mo-nav {
+  @include nav;
+  background-color: $fiery-rose;
+  a {
+    color: $pink-lace;
+    &:hover {
+      color: $plump-purple;
+    }
+  }
+}
+
+.mo-header {
+  color: $pink-lace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 0 3em 0 3em;
+  .header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media only screen and (max-width: 625px) {
+      flex-direction: column-reverse;
+      align-items: center;
+      font-size: .75em;
+    }
+    .mo-shelby {
+      img {
+        height: auto;
+        width: 30vw;
+        border-radius: 50%;
+        border: 3px solid $light-med-orchid;
+        @media screen and (max-width: 525px) {
+          width: 80%;
+        }
+      }
+    }
+    .header-text {
+      padding: 0 6em 0;
+      @media screen and (max-width: 525px) {
+        padding: 5em 2em 2em 2em;
+      }
+      h2 {
+        font-family: "Indie Flower", cursive;
+        color: $pink-lace;
+        font-size: 2em;
+        letter-spacing: .1em;
+        line-height: 1.4em;
+        @media screen and (max-width: 525px){
+          font-size: 2.5em;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 525px) {
+    padding: 1em 2em 0;
+    font-size: 1.5em;
+  }
+  h1 {
+    margin-bottom: 2em;
+    font-family: 'Unkempt', cursive;
+    text-shadow: 5px 5px 1px $plump-purple;
+  }
+  .hamburger {
+    align-self: flex-start;
+    color: white;
+    margin: 1em .7em 2em;
+    font-size: 3em;
+    cursor: pointer;
+    @media screen and (min-width: 525px) {
+      display: none;
+      height: 0;
+      width: 0;
+    }
+  }
+}
+
+.drawings {
+  color: $pink-lace;
+  padding: 3em 2em 5em 2em;
+  height: auto;
+  width: 100%;
+  h2 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: .12em;
+    line-height: 1.3em;
+  }
+  .postcard-front {
+    @include drawings;
+  }
+  .postcard-back {
+    @include drawings2;
+  }
+  .fox {
+    @include drawings;
+  }
+  .daddy {
+    @include drawings2;
+  }
+}
