@@ -37,4 +37,7 @@
       }
     }
   }
+  #thug {
+    @include feat-artist;
+  }
 }

@@ -729,6 +729,23 @@ body {
     color: #B94399; }
     #cc-content .lyrics a:hover {
       color: #C8BFC7; }
+  #cc-content #thug {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 1em 1.2em; }
+    @media screen and (max-width: 600px) {
+      #cc-content #thug {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #cc-content #thug {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #cc-content #thug {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
 
 #b-wrapper {
   background-color: #010101; }
