@@ -1,0 +1,43 @@
+#lm-wrapper {
+  background-color: #420039;
+}
+
+// #lm-mobile-nav {
+//   @include mobilenav;
+//   background-color: $byzantine;
+//   a {
+//     color: $rich-black;
+//   }
+// }
+
+#lm-nav {
+  @include nav;
+  background-color: #420039;
+  a {
+    color: $pale-chestnut;
+    &:hover {
+      color: $majorelle-blue;
+    }
+  }
+}
+
+#lm-header {
+@include artist-header;
+  color: $pale-chestnut;
+}
+
+#lm-content {
+  @include content;
+  color: $pale-chestnut;
+  .lyrics {
+    a {
+      color: $majorelle-blue;
+      &:hover {
+        color: $platinum;
+      }
+    }
+  }
+  #groff {
+    @include feat-artist;
+  }
+}
