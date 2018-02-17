@@ -1,0 +1,40 @@
+#v-wrapper {
+  background-color: $yankees-blue;
+}
+
+#v-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#v-nav {
+  @include nav;
+  background-color: $yankees-blue;
+  a {
+    color: $spanish-gray;
+    &:hover {
+      color: #065a82;
+    }
+  }
+}
+
+#v-header {
+@include artist-header;
+  color: $spanish-gray;
+}
+
+#v-content {
+  @include content;
+  color: $spanish-gray;
+  .lyrics {
+    a {
+    color: $pink-orange;
+      &:hover {
+        color: $blue-sapphire;
+      }
+    }
+  }
+}
