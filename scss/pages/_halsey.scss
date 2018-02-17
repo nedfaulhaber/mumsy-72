@@ -1,0 +1,40 @@
+#h-wrapper {
+  background-color: $red-devil;
+}
+
+#h-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#h-nav {
+  @include nav;
+  background-color: $red-devil;
+  a {
+    color: $gainsboro;
+    &:hover {
+      color: $queen-blue;
+    }
+  }
+}
+
+#h-header {
+@include artist-header;
+  color: $gainsboro;
+}
+
+#h-content {
+  @include content;
+  color: $gainsboro;
+  .lyrics {
+    a {
+    color: $marigold;
+      &:hover {
+        color: $queen-blue;
+      }
+    }
+  }
+}

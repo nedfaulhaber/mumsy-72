@@ -887,10 +887,10 @@ body {
     #v-content .lyrics a:hover {
       color: #065a82; }
 
-#s-wrapper {
-  background-color: #003049; }
+#h-wrapper {
+  background-color: #870C12; }
 
-#s-mobile-nav {
+#h-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -900,26 +900,26 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
-  background-color: #1F487E; }
-  #s-mobile-nav a {
+  background-color: #0200C2; }
+  #h-mobile-nav a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Satisfy', cursive; }
-  #s-mobile-nav .sidenav .closebtn {
+  #h-mobile-nav .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 3.125em; }
-  #s-mobile-nav .closebtn {
+  #h-mobile-nav .closebtn {
     font-size: 4em;
     padding-left: .75em; }
-  #s-mobile-nav a {
-    color: #0A0509; }
+  #h-mobile-nav a {
+    color: #C89682; }
 
-#s-nav {
+#h-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -927,87 +927,83 @@ body {
   height: auto;
   margin: 0 0 1em 0;
   padding: 3em 3em 0;
-  background-color: #003049; }
-  #s-nav a {
+  background-color: #870C12; }
+  #h-nav a {
     font-family: 'Pompiere', cursive;
     text-decoration: none; }
   @media screen and (max-width: 524px) {
-    #s-nav {
+    #h-nav {
       display: none;
       height: 0;
       width: 0; } }
-  #s-nav a {
-    color: #F37767; }
-    #s-nav a:hover {
-      color: #F9C22E; }
+  #h-nav a {
+    color: #DADDD8; }
+    #h-nav a:hover {
+      color: #477998; }
 
-#s-header {
+#h-header {
   margin: 5em 2em 3em 3em;
-  color: #F37767; }
+  color: #DADDD8; }
   @media screen and (max-width: 600px) {
-    #s-header {
+    #h-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-left: 0; } }
   @media screen and (max-width: 525px) {
-    #s-header {
+    #h-header {
       margin-top: 0; } }
-  #s-header h2 {
+  #h-header h2 {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 600;
     margin-bottom: .2em; }
-  #s-header .song {
+  #h-header .song {
     font-family: 'PT Sans', sans-serif;
     margin-bottom: .2em;
     font-size: 1.75em; }
-    #s-header .song span {
+    #h-header .song span {
       font-weight: 300;
       font-size: .6em; }
-      #s-header .song span em {
+      #h-header .song span em {
         font-style: italic; }
-  #s-header .hamburger {
+  #h-header .hamburger {
     align-self: flex-start;
     color: white;
     margin: 1em .7em 2em;
     font-size: 3em;
     cursor: pointer; }
     @media screen and (min-width: 525px) {
-      #s-header .hamburger {
+      #h-header .hamburger {
         display: none;
         height: 0;
         width: 0; } }
-  @media screen and (max-width: 475px) {
-    #s-header #cranes-in-the-sky {
-      text-align: center;
-      margin: 0 1em 2em; } }
 
-#s-content {
+#h-content {
   height: auto;
   margin: 0 3em 0em 3em;
   padding-bottom: 5em;
-  color: #F37767; }
-  #s-content img {
+  color: #DADDD8; }
+  #h-content img {
     height: auto;
     width: 30vw;
     float: left;
     margin: 0 1.5em .5em 0;
     border-radius: 3px; }
     @media screen and (max-width: 1024px) {
-      #s-content img {
+      #h-content img {
         width: 40vw; } }
     @media screen and (max-width: 600px) {
-      #s-content img {
+      #h-content img {
         display: flex;
         margin: 0 0 2em;
         width: 100%;
         float: none; } }
-  #s-content em {
+  #h-content em {
     font-style: italic; }
-  #s-content .info-link a {
+  #h-content .info-link a {
     text-decoration: none; }
-  #s-content .lyrics {
+  #h-content .lyrics {
     margin-top: 2em;
     font-size: 1em;
     letter-spacing: .03em;
@@ -1015,25 +1011,21 @@ body {
     font-weight: 400;
     text-indent: 1.5em;
     font-family: 'PT Sans', sans-serif; }
-    #s-content .lyrics a {
+    #h-content .lyrics a {
       text-decoration: none;
       color: inherit; }
   @media screen and (max-width: 600px) {
-    #s-content {
+    #h-content {
       display: flex;
       flex-direction: column;
       align-items: center; } }
   @media screen and (max-width: 435px) {
-    #s-content {
+    #h-content {
       margin: 0 1.5em 0 1.5em; } }
-  #s-content .info-link a {
-    color: #F9C22E; }
-    #s-content .info-link a:hover {
-      color: #1F487E; }
-  #s-content .lyrics a {
-    color: #F9C22E; }
-    #s-content .lyrics a:hover {
-      color: #1F487E; }
+  #h-content .lyrics a {
+    color: #E1A126; }
+    #h-content .lyrics a:hover {
+      color: #477998; }
 
 #f-wrapper {
   background-color: #2D232E; }
