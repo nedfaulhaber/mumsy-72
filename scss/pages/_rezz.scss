@@ -1,0 +1,52 @@
+#r-wrapper {
+  background-color: $pastel-blue;
+}
+
+// #r-mobile-nav {
+//   @include mobilenav;
+//   background-color: $byzantine;
+//   a {
+//     color: $rich-black;
+//   }
+// }
+
+#r-nav {
+  @include nav;
+  background-color: $pastel-blue;
+  a {
+    color: $black-olive;
+    &:hover {
+      color: $platinum;
+    }
+  }
+}
+
+#r-header {
+  @include artist-header;
+  color: $black-olive;
+  #clear {
+    @include long-song;
+  }
+
+}
+
+#r-content {
+  @include content;
+  color: $black-olive;
+  .lyrics {
+    a {
+      color: $lapis-lazuli;
+      &:hover {
+        color: $platinum;
+      }
+    }
+  }
+  #no-mana {
+    @include feat-artist;
+  }
+  #zashanell {
+    @include feat-artist;
+    float: left;
+    margin: .5em 1.2em 1em 0;
+  }
+}
