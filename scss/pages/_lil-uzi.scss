@@ -1,0 +1,44 @@
+#lu-wrapper {
+  background-color: $brass;
+}
+
+// #lu-mobile-nav {
+//   @include mobilenav;
+//   background-color: $byzantine;
+//   a {
+//     color: $rich-black;
+//   }
+// }
+
+#lu-nav {
+  @include nav;
+  background-color: $brass;
+  a {
+    color: $midnight-blue;
+    &:hover {
+      color: $platinum;
+    }
+  }
+}
+
+#lu-header {
+  @include artist-header;
+  color: $midnight-blue;
+  #grab-the-wheel {
+    @include long-song;
+  }
+
+}
+
+#lu-content {
+  @include content;
+  color: midnight-blue;
+  .lyrics {
+    a {
+      color: $lapis-lazuli;
+      &:hover {
+        color: $platinum;
+      }
+    }
+  }
+}
