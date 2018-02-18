@@ -1,0 +1,40 @@
+#vdp-wrapper {
+  background-color: $smoky-black;
+}
+
+#vdp-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#vdp-nav {
+  @include nav;
+  background-color: $smoky-black;
+  a {
+    color: $middle-green-yellow;
+    &:hover {
+      color: $wild-blue-yonder;
+    }
+  }
+}
+
+#vdp-header {
+@include artist-header;
+  color: $middle-green-yellow;
+}
+
+#vdp-content {
+  @include content;
+  color: $middle-green-yellow;
+  .lyrics {
+    a {
+    color: $wild-blue-yonder;
+      &:hover {
+        color: $blue-sapphire;
+      }
+    }
+  }
+}
