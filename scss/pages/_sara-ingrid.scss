@@ -1,0 +1,49 @@
+#si-wrapper {
+  background-color: $dust-storm;
+}
+
+#si-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#si-nav {
+  @include nav;
+  background-color: $dust-storm;
+  a {
+    color: $yankees-blue;
+    &:hover {
+      color: $maximum-red;
+    }
+  }
+}
+
+#si-header {
+@include artist-header;
+  color: $yankees-blue;
+  #sara-ingrid {
+    @media screen and (max-width: 600px) {
+      text-align: center;
+      margin: 0 2em 0;
+    }
+  }
+}
+
+#si-content {
+  @include content;
+  color: $yankees-blue;
+  #winter {
+    @include long-song;
+  }
+  .lyrics {
+    a {
+    color: $maximum-red;
+      &:hover {
+        color: #84915D;
+      }
+    }
+  }
+}
