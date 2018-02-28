@@ -24,6 +24,9 @@
 #vdp-header {
 @include artist-header;
   color: $middle-green-yellow;
+  #paris {
+    @include long-song;
+  }
 }
 
 #vdp-content {

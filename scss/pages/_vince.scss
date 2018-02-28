@@ -29,12 +29,4 @@
 #v-content {
   @include content;
   color: $spanish-gray;
-  .lyrics {
-    a {
-    color: $pink-orange;
-      &:hover {
-        color: $blue-sapphire;
-      }
-    }
-  }
 }

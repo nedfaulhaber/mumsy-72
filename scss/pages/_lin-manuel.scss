@@ -24,6 +24,9 @@
 #lm-header {
 @include artist-header;
   color: $pale-chestnut;
+  #back {
+    @include long-song;
+  }
 }
 
 #lm-content {

@@ -1,0 +1,32 @@
+#y-wrapper {
+  background-color: $dark-slate-grey;
+}
+
+#y-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#y-nav {
+  @include nav;
+  background-color: $dark-slate-grey;
+  a {
+    color: $tea-rose;
+    &:hover {
+      color: $ceil;
+    }
+  }
+}
+
+#y-header {
+@include artist-header;
+  color: $tea-rose;
+}
+
+#y-content {
+  @include content;
+  color: $tea-rose;
+}

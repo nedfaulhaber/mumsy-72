@@ -1,0 +1,40 @@
+#pnd-wrapper {
+  background-color: $white-smoke;
+}
+
+#pnd-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#pnd-nav {
+  @include nav;
+  background-color: $white-smoke;
+  a {
+    color: $black-leather-jacket;
+    &:hover {
+      color: $light-grey;
+    }
+  }
+}
+
+#pnd-header {
+@include artist-header;
+  color: $black-leather-jacket;
+}
+
+#pnd-content {
+  @include content;
+  color: $black-leather-jacket;
+  .lyrics {
+    a {
+    color: $pink-orange;
+      &:hover {
+        color: $blue-sapphire;
+      }
+    }
+  }
+}

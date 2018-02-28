@@ -24,19 +24,14 @@
 #cc-header {
 @include artist-header;
   color: $rackley;
+  #havana {
+    @include long-song;
+  }
 }
 
 #cc-content {
   @include content;
   color: $rackley;
-  .lyrics {
-    a {
-      color: $byzantine;
-      &:hover {
-        color: $pale-silver;
-      }
-    }
-  }
   #thug {
     @include feat-artist;
   }

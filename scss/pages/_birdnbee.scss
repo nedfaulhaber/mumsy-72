@@ -1,8 +1,8 @@
-#h-wrapper {
-  background-color: $red-devil;
+#bnb-wrapper {
+  background-color: $sea-blue;
 }
 
-#h-mobile-nav {
+#bnb-mobile-nav {
   @include mobilenav;
   background-color: $med-blue;
   a {
@@ -10,26 +10,23 @@
   }
 }
 
-#h-nav {
+#bnb-nav {
   @include nav;
-  background-color: $red-devil;
+  background-color: $sea-blue;
   a {
     color: $gainsboro;
     &:hover {
-      color: $queen-blue;
+      color: #2C9AC4;
     }
   }
 }
 
-#h-header {
+#bnb-header {
 @include artist-header;
   color: $gainsboro;
-  #bad {
-    @include long-song;
-  }
 }
 
-#h-content {
+#bnb-content {
   @include content;
   color: $gainsboro;
 }

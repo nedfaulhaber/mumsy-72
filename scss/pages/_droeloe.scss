@@ -1,5 +1,5 @@
 #d-wrapper {
-  background-color: #606c38;
+  background-color: $cinnamon-satin;
 }
 
 // #d-mobile-nav {
@@ -12,11 +12,11 @@
 
 #d-nav {
   @include nav;
-  background-color: #606c38;
+  background-color: $cinnamon-satin;
   a {
     color: $smoky-black;
     &:hover {
-      color: #813D4F;
+      color: $taupe-gray;
     }
   }
 }
@@ -28,19 +28,8 @@
 
 #d-content {
   @include content;
-  #d-loe {
-    width: 37vw;
-  }
   color: $smoky-black;
   #nevve {
     @include feat-artist;
-  }
-  .lyrics {
-    a {
-      color: $tigers-eye;
-      &:hover {
-        color: $sienna;
-      }
-    }
   }
 }

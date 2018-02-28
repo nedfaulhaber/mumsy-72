@@ -1,0 +1,35 @@
+#jb-wrapper {
+  background-color: $stormcloud;
+}
+
+#jb-mobile-nav {
+  @include mobilenav;
+  background-color: $med-blue;
+  a {
+    color: $pale-taupe;
+  }
+}
+
+#jb-nav {
+  @include nav;
+  background-color: $stormcloud;
+  a {
+    color: $tuscan;
+    &:hover {
+      color: $dark-pastel-red;
+    }
+  }
+}
+
+#jb-header {
+@include artist-header;
+  color: $tuscan;
+  #forest-fire {
+    @include long-song;
+  }
+}
+
+#jb-content {
+  @include content;
+  color: $tuscan;
+}
