@@ -495,6 +495,35 @@ body {
 #d-wrapper {
   background-color: #c76d7e; }
 
+#d-mobile-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em;
+  background-color: #0A0509; }
+  #d-mobile-nav a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Satisfy', cursive; }
+  #d-mobile-nav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em; }
+  #d-mobile-nav .closebtn {
+    font-size: 4em;
+    padding-left: .75em; }
+  #d-mobile-nav a {
+    color: #AC80A0; }
+
 #d-nav {
   display: flex;
   justify-content: space-between;

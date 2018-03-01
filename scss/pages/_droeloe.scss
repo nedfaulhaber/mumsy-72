@@ -2,13 +2,13 @@
   background-color: $cinnamon-satin;
 }
 
-// #d-mobile-nav {
-//   @include mobilenav;
-//   background-color: $smoky-black;
-//   a {
-//     color: $opera-mauve;
-//   }
-// }
+#d-mobile-nav {
+  @include mobilenav;
+  background-color: $smoky-black;
+  a {
+    color: $opera-mauve;
+  }
+}
 
 #d-nav {
   @include nav;
