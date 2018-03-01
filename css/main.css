@@ -2271,6 +2271,15 @@ body {
         display: none;
         height: 0;
         width: 0; } }
+  #bnb-header #dance {
+    line-height: 1.2em; }
+    @media screen and (max-width: 850px) {
+      #bnb-header #dance {
+        margin-right: 2em; } }
+    @media screen and (max-width: 600px) {
+      #bnb-header #dance {
+        text-align: center;
+        margin: 0 2em 0; } }
 
 #bnb-content {
   height: auto;
