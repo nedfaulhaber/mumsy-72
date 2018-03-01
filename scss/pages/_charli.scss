@@ -2,13 +2,13 @@
   background-color: $dark-sienna;
 }
 
-// #cx-mobile-nav {
-//   @include mobilenav;
-//   background-color: $byzantine;
-//   a {
-//     color: $rich-black;
-//   }
-// }
+#cx-mobile-nav {
+  @include mobilenav;
+  background-color: $byzantine;
+  a {
+    color: $rich-black;
+  }
+}
 
 #cx-nav {
   @include nav;

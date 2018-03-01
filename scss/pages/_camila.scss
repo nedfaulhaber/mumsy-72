@@ -2,13 +2,13 @@
   background-color: $eerie-black;
 }
 
-// #cc-mobile-nav {
-//   @include mobilenav;
-//   background-color: $byzantine;
-//   a {
-//     color: $rich-black;
-//   }
-// }
+#cc-mobile-nav {
+  @include mobilenav;
+  background-color: $byzantine;
+  a {
+    color: $rich-black;
+  }
+}
 
 #cc-nav {
   @include nav;
