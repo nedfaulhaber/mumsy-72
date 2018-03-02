@@ -5,5 +5,5 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("v-mobile-nav").style.width = "0";
-    document.getElementById("v-wrapper").style.marginRight= "0";
+    document.getElementById("v-wrapper").style.marginRight = "0";
 }

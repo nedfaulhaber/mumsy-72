@@ -5,5 +5,5 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("jf-mobile-nav").style.width = "0";
-    document.getElementById("jf-wrapper").style.marginRight= "0";
+    document.getElementById("jf-wrapper").style.marginRight = "0";
 }
