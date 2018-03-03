@@ -2,13 +2,13 @@
   background-color: $pastel-blue;
 }
 
-// #r-mobile-nav {
-//   @include mobilenav;
-//   background-color: $byzantine;
-//   a {
-//     color: $rich-black;
-//   }
-// }
+#r-mobile-nav {
+  @include mobilenav;
+  background-color: $byzantine;
+  a {
+    color: $rich-black;
+  }
+}
 
 #r-nav {
   @include nav;

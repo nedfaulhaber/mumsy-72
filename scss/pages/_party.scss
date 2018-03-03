@@ -24,6 +24,9 @@
 #pnd-header {
 @include artist-header;
   color: $black-leather-jacket;
+  .hamburger {
+    color: $black-leather-jacket
+  }
 }
 
 #pnd-content {

@@ -8,9 +8,9 @@ body {
 
 .sidenav {
   @include mobilenav;
-  background-color: #197278;
+  background-color: $pearl-aqua;
   a {
-    color: #F3E9DC;
+    color: $dark-imperial-blue;
   }
 }
 
