@@ -191,6 +191,9 @@ body {
       background-size: cover;
       @media screen and (max-width: 525px) {
         background-position: 0% 8%;
+        p {
+          padding-right: 1em;
+        }
       }
     }
     #rezz {
@@ -276,12 +279,20 @@ body {
       }
       @media screen and (max-width: 525px) {
         background-position: 0% 15%;
+        p {
+          padding-right: 1em;
+        }
       }
     }
     #bird-bee {
       background-image: url('../img/bird-bee.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 1029px) {
+        p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black;
+        }
+      }
       @media screen and (max-width: 525px) {
         background-position: 0% 15%;
       }

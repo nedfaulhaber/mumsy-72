@@ -339,7 +339,9 @@ body {
       background-size: cover; }
       @media screen and (max-width: 525px) {
         .gallery .row #lin-manuel {
-          background-position: 0% 8%; } }
+          background-position: 0% 8%; }
+          .gallery .row #lin-manuel p {
+            padding-right: 1em; } }
     .gallery .row #rezz {
       background-image: url("../img/REZZ.png");
       background-position: center;
@@ -404,11 +406,16 @@ body {
           text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #partynextdoor {
-          background-position: 0% 15%; } }
+          background-position: 0% 15%; }
+          .gallery .row #partynextdoor p {
+            padding-right: 1em; } }
     .gallery .row #bird-bee {
       background-image: url("../img/bird-bee.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #bird-bee p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #bird-bee {
           background-position: 0% 15%; } }
