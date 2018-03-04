@@ -2,13 +2,13 @@
   background-color: $brass;
 }
 
-// #lu-mobile-nav {
-//   @include mobilenav;
-//   background-color: $byzantine;
-//   a {
-//     color: $rich-black;
-//   }
-// }
+#lu-mobile-nav {
+  @include mobilenav;
+  background-color: $midnight-blue;
+  a {
+    color: $brass;
+  }
+}
 
 #lu-nav {
   @include nav;

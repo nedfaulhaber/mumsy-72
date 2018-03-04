@@ -1,15 +1,14 @@
 #jf-wrapper {
-  // background-color: $misty-rose;
   background-color: $desert-sand;
 }
 
-// #k-mobile-nav {
-//   @include mobilenav;
-//   background-color: $brown;
-//   a {
-//     color: $tan;
-//   }
-// }
+#jf-mobile-nav {
+  @include mobilenav;
+  background-color: $maastrich-blue;
+  a {
+    color: $desert-sand;
+  }
+}
 
 #jf-nav {
   @include nav;

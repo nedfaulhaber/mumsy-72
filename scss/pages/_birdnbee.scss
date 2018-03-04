@@ -4,9 +4,9 @@
 
 #bnb-mobile-nav {
   @include mobilenav;
-  background-color: $med-blue;
+  background-color: $gainsboro;
   a {
-    color: $pale-taupe;
+    color: $sea-blue;
   }
 }
 
@@ -16,7 +16,7 @@
   a {
     color: $gainsboro;
     &:hover {
-      color: #2C9AC4;
+      color: pacific-blue;
     }
   }
 }

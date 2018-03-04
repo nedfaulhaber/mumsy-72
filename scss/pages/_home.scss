@@ -8,7 +8,7 @@ body {
 
 .sidenav {
   @include mobilenav;
-  background-color: $pearl-aqua;
+  background-color: black;
   a {
     color: $dark-imperial-blue;
   }
@@ -36,14 +36,14 @@ body {
   width: 100%;
   height: auto;
   padding: 0 14em 0 14em;
-  @media screen and (max-width: 525px) {
-    padding: 1em 2em 0;
-    font-size: 1.2em;
-  }
   h1 {
     margin-bottom: 1em;
     font-family: 'Syncopate', sans-serif;
     text-shadow: 5px 5px 1px $eerie-black;
+  }
+  @media screen and (max-width: 525px) {
+    padding: 1em 2em 0;
+    font-size: 1.2em;
   }
   .hamburger {
     align-self: flex-start;
@@ -142,6 +142,9 @@ body {
       background-image: url('../img/julia-fischer.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 10%;
+      }
     }
     #droeloe {
       background-image: url('../img/droeloe.png');
@@ -152,36 +155,57 @@ body {
       background-image: url('../img/camila.png');
       background-position: 0 0%;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 8%;
+      }
     }
     #vince {
       background-image: url('../img/vince-home.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 25%;
+      }
     }
     #halsey {
       background-image: url('../img/halsey.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 10% 0%;
       }
+    }
     #lin-manuel {
       background-image: url('../img/lin-manuel.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 8%;
+      }
     }
     #rezz {
       background-image: url('../img/REZZ.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 20%;
+      }
     }
     #van-dyke {
       background-image: url('../img/van-dyke.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 10%;
+      }
     }
     #lil-uzi {
       background-image: url('../img/lil-uzi.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 35%;
+      }
     }
     #sara-ingrid {
       background-image: url('../img/sara-ingrid.png');
@@ -191,6 +215,9 @@ body {
         p {
           padding-right: .4em;
         }
+      }
+      @media screen and (max-width: 525px) {
+        background-position: 0% 10%;
       }
     }
     #charli {
@@ -202,21 +229,33 @@ body {
       background-image: url('../img/yitaku.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 70%;
+      }
     }
     #partynextdoor {
       background-image: url('../img/partynextdoor.png');
       background-position: 42%;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 15%;
+      }
     }
     #bird-bee {
       background-image: url('../img/bird-bee.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 15%;
+      }
     }
     #james {
       background-image: url('../img/james.png');
       background-position: center;
       background-size: cover;
+      @media screen and (max-width: 525px) {
+        background-position: 0% 75%;
+      }
     }
   }
 }

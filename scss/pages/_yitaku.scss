@@ -4,9 +4,9 @@
 
 #y-mobile-nav {
   @include mobilenav;
-  background-color: $med-blue;
+  background-color: $ceil;
   a {
-    color: $pale-taupe;
+    color: $dark-slate-grey;
   }
 }
 

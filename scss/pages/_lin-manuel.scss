@@ -1,18 +1,18 @@
 #lm-wrapper {
-  background-color: #420039;
+  background-color: $tyrian-purple;
 }
 
-// #lm-mobile-nav {
-//   @include mobilenav;
-//   background-color: $byzantine;
-//   a {
-//     color: $rich-black;
-//   }
-// }
+#lm-mobile-nav {
+  @include mobilenav;
+  background-color: $pale-chestnut;
+  a {
+    color: $tyrian-purple;
+  }
+}
 
 #lm-nav {
   @include nav;
-  background-color: #420039;
+  background-color: $tyrian-purple;
   a {
     color: $pale-chestnut;
     &:hover {
