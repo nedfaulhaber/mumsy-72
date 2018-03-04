@@ -310,6 +310,9 @@ body {
       background-image: url("../img/camila.png");
       background-position: 0 0%;
       background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #camila p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #camila {
           background-position: 0% 8%; } }
@@ -324,6 +327,9 @@ body {
       background-image: url("../img/halsey.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #halsey p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #halsey {
           background-position: 10% 0%; } }
@@ -338,6 +344,9 @@ body {
       background-image: url("../img/REZZ.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #rezz p {
+          text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #rezz {
           background-position: 0% 20%; } }
@@ -345,6 +354,9 @@ body {
       background-image: url("../img/van-dyke.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #van-dyke p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #van-dyke {
           background-position: 0% 10%; } }
@@ -361,7 +373,8 @@ body {
       background-size: cover; }
       @media screen and (max-width: 1029px) {
         .gallery .row #sara-ingrid p {
-          padding-right: .4em; } }
+          padding-right: .4em;
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #sara-ingrid {
           background-position: 0% 10%; } }
@@ -369,10 +382,16 @@ body {
       background-image: url("../img/charli.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #charli p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
     .gallery .row #yitaku {
       background-image: url("../img/yitaku.png");
       background-position: center;
       background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #yitaku p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #yitaku {
           background-position: 0% 70%; } }
@@ -380,6 +399,9 @@ body {
       background-image: url("../img/partynextdoor.png");
       background-position: 42%;
       background-size: cover; }
+      @media screen and (max-width: 1029px) {
+        .gallery .row #partynextdoor p {
+          text-shadow: -.75px 0 .75px black, 0 .75px .75px black, .75px 0 .75px black, 0 -.75px .75px black; } }
       @media screen and (max-width: 525px) {
         .gallery .row #partynextdoor {
           background-position: 0% 15%; } }
