@@ -32,12 +32,4 @@
 #vdp-content {
   @include content;
   color: $middle-green-yellow;
-  .lyrics {
-    a {
-    color: $wild-blue-yonder;
-      &:hover {
-        color: $blue-sapphire;
-      }
-    }
-  }
 }

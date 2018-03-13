@@ -33,14 +33,6 @@
 #r-content {
   @include content;
   color: $black-olive;
-  .lyrics {
-    a {
-      color: $lapis-lazuli;
-      &:hover {
-        color: $platinum;
-      }
-    }
-  }
   #no-mana {
     @include feat-artist;
   }

@@ -32,12 +32,4 @@
 #pnd-content {
   @include content;
   color: $black-leather-jacket;
-  .lyrics {
-    a {
-    color: $pink-orange;
-      &:hover {
-        color: $blue-sapphire;
-      }
-    }
-  }
 }

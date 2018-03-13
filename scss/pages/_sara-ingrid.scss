@@ -38,12 +38,4 @@
   #winter {
     @include long-song;
   }
-  .lyrics {
-    a {
-    color: $maximum-red;
-      &:hover {
-        color: #84915D;
-      }
-    }
-  }
 }

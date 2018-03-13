@@ -33,12 +33,4 @@
 #lu-content {
   @include content;
   color: midnight-blue;
-  .lyrics {
-    a {
-      color: $mardi-gras;
-      &:hover {
-        color: $platinum;
-      }
-    }
-  }
 }
