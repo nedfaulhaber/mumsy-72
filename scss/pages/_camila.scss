@@ -32,6 +32,12 @@
 #cc-content {
   @include content;
   color: $rackley;
+  a {
+    color: $byzantine;
+    &:hover {
+      color: $light-grey;
+    }
+  }
   #thug {
     @include feat-artist;
   }

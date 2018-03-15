@@ -550,7 +550,7 @@ body {
         float: none; } }
   #jf-content em {
     font-style: italic; }
-  #jf-content .info-link a {
+  #jf-content .info-link {
     text-decoration: none; }
   #jf-content .lyrics {
     margin-top: 2em;
@@ -703,7 +703,7 @@ body {
         float: none; } }
   #d-content em {
     font-style: italic; }
-  #d-content .info-link a {
+  #d-content .info-link {
     text-decoration: none; }
   #d-content .lyrics {
     margin-top: 2em;
@@ -865,7 +865,7 @@ body {
         float: none; } }
   #cc-content em {
     font-style: italic; }
-  #cc-content .info-link a {
+  #cc-content .info-link {
     text-decoration: none; }
   #cc-content .lyrics {
     margin-top: 2em;
@@ -886,6 +886,10 @@ body {
   @media screen and (max-width: 435px) {
     #cc-content {
       margin: 0 1.5em 0 1.5em; } }
+  #cc-content a {
+    color: #B94399; }
+    #cc-content a:hover {
+      color: #d4d4d8; }
   #cc-content #thug {
     height: auto;
     width: 25vw;
@@ -1018,7 +1022,7 @@ body {
         float: none; } }
   #v-content em {
     font-style: italic; }
-  #v-content .info-link a {
+  #v-content .info-link {
     text-decoration: none; }
   #v-content .lyrics {
     margin-top: 2em;
@@ -1163,7 +1167,7 @@ body {
         float: none; } }
   #h-content em {
     font-style: italic; }
-  #h-content .info-link a {
+  #h-content .info-link {
     text-decoration: none; }
   #h-content .lyrics {
     margin-top: 2em;
@@ -1308,7 +1312,7 @@ body {
         float: none; } }
   #lm-content em {
     font-style: italic; }
-  #lm-content .info-link a {
+  #lm-content .info-link {
     text-decoration: none; }
   #lm-content .lyrics {
     margin-top: 2em;
@@ -1470,7 +1474,7 @@ body {
         float: none; } }
   #r-content em {
     font-style: italic; }
-  #r-content .info-link a {
+  #r-content .info-link {
     text-decoration: none; }
   #r-content .lyrics {
     margin-top: 2em;
@@ -1651,7 +1655,7 @@ body {
         float: none; } }
   #vdp-content em {
     font-style: italic; }
-  #vdp-content .info-link a {
+  #vdp-content .info-link {
     text-decoration: none; }
   #vdp-content .lyrics {
     margin-top: 2em;
@@ -1796,7 +1800,7 @@ body {
         float: none; } }
   #lu-content em {
     font-style: italic; }
-  #lu-content .info-link a {
+  #lu-content .info-link {
     text-decoration: none; }
   #lu-content .lyrics {
     margin-top: 2em;
@@ -1936,7 +1940,7 @@ body {
         float: none; } }
   #si-content em {
     font-style: italic; }
-  #si-content .info-link a {
+  #si-content .info-link {
     text-decoration: none; }
   #si-content .lyrics {
     margin-top: 2em;
@@ -2090,7 +2094,7 @@ body {
         float: none; } }
   #cx-content em {
     font-style: italic; }
-  #cx-content .info-link a {
+  #cx-content .info-link {
     text-decoration: none; }
   #cx-content .lyrics {
     margin-top: 2em;
@@ -2269,7 +2273,7 @@ body {
         float: none; } }
   #y-content em {
     font-style: italic; }
-  #y-content .info-link a {
+  #y-content .info-link {
     text-decoration: none; }
   #y-content .lyrics {
     margin-top: 2em;
@@ -2407,7 +2411,7 @@ body {
         float: none; } }
   #pnd-content em {
     font-style: italic; }
-  #pnd-content .info-link a {
+  #pnd-content .info-link {
     text-decoration: none; }
   #pnd-content .lyrics {
     margin-top: 2em;
@@ -2552,7 +2556,7 @@ body {
         float: none; } }
   #bnb-content em {
     font-style: italic; }
-  #bnb-content .info-link a {
+  #bnb-content .info-link {
     text-decoration: none; }
   #bnb-content .lyrics {
     margin-top: 2em;
@@ -2697,7 +2701,7 @@ body {
         float: none; } }
   #jb-content em {
     font-style: italic; }
-  #jb-content .info-link a {
+  #jb-content .info-link {
     text-decoration: none; }
   #jb-content .lyrics {
     margin-top: 2em;
