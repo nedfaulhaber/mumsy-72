@@ -32,6 +32,12 @@
 #lm-content {
   @include content;
   color: $pale-chestnut;
+  a {
+    color: $majorelle-blue;
+    &:hover {
+      color: $light-grey;
+    }
+  }
   #groff {
     @include feat-artist;
   }

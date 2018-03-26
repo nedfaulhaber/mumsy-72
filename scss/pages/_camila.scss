@@ -31,6 +31,7 @@
 
 #cc-content {
   @include content;
+  padding-bottom: 15em;
   color: $rackley;
   a {
     color: $byzantine;
