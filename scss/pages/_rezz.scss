@@ -32,6 +32,7 @@
 
 #r-content {
   @include content;
+  padding-bottom: 18em;
   color: $black-olive;
   #no-mana {
     @include feat-artist;
