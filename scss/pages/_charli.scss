@@ -48,4 +48,14 @@
     float: left;
     margin: .5em 1.2em 1em 0;
   }
+  #agcook {
+    @include feat-artist;
+    width: 30vw;
+    @media screen and (max-width: 600px) {
+      display: flex;
+      margin: 2em 0 2em;
+      width: 87%;
+      float: none;
+    }
+  }
 }

@@ -2169,6 +2169,30 @@ body {
         margin: 2em 0 2em;
         width: 100%;
         float: none; } }
+  #cx-content #agcook {
+    height: auto;
+    width: 25vw;
+    float: right;
+    margin: .5em 0 1em 1.2em;
+    width: 30vw; }
+    @media screen and (max-width: 600px) {
+      #cx-content #agcook {
+        margin-left: 0; } }
+    @media screen and (max-width: 1024px) {
+      #cx-content #agcook {
+        width: 35vw; } }
+    @media screen and (max-width: 600px) {
+      #cx-content #agcook {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 100%;
+        float: none; } }
+    @media screen and (max-width: 600px) {
+      #cx-content #agcook {
+        display: flex;
+        margin: 2em 0 2em;
+        width: 87%;
+        float: none; } }
 
 #y-wrapper {
   background-color: #2e5266; }
