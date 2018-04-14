@@ -1506,6 +1506,10 @@ body {
   @media screen and (max-width: 435px) {
     #r-content {
       margin: 0 1.5em 0 1.5em; } }
+  #r-content a {
+    color: #dfe0e2; }
+    #r-content a:hover {
+      color: #84596b; }
   #r-content #no-mana {
     height: auto;
     width: 25vw;
@@ -2757,5 +2761,9 @@ body {
   @media screen and (max-width: 435px) {
     #jb-content {
       margin: 0 1.5em 0 1.5em; } }
+  #jb-content a {
+    color: #C14A23; }
+    #jb-content a:hover {
+      color: #c6878f; }
 
 /*# sourceMappingURL=main.css.map */

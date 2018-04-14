@@ -32,4 +32,10 @@
 #jb-content {
   @include content;
   color: $tuscan;
+  a {
+    color: $dark-pastel-red;
+    &:hover {
+      color: $puce;
+    }
+  }
 }
