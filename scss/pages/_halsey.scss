@@ -32,4 +32,10 @@
 #h-content {
   @include content;
   color: $gainsboro;
+  a {
+    color: $marigold;
+    &:hover {
+      color: $queen-blue;
+    }
+  }
 }

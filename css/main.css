@@ -1046,7 +1046,7 @@ body {
     #v-content {
       margin: 0 1.5em 0 1.5em; } }
   #v-content a {
-    color: #065a82; }
+    color: #c05746; }
     #v-content a:hover {
       color: #afd2e9; }
 
@@ -1194,6 +1194,10 @@ body {
   @media screen and (max-width: 435px) {
     #h-content {
       margin: 0 1.5em 0 1.5em; } }
+  #h-content a {
+    color: #E1A126; }
+    #h-content a:hover {
+      color: #477998; }
 
 #lm-wrapper {
   background-color: #420039; }
@@ -1985,6 +1989,10 @@ body {
       #si-content #winter {
         text-align: center;
         margin: 0 2em 0; } }
+  #si-content a {
+    color: #D3221F; }
+    #si-content a:hover {
+      color: #878FD1; }
 
 #cx-wrapper {
   background-color: #32161f; }
@@ -2524,7 +2532,7 @@ body {
   #bnb-nav a {
     color: #DADDD8; }
     #bnb-nav a:hover {
-      color: pacific-blue; }
+      color: #2C9AC4; }
 
 #bnb-header {
   margin: 5em 2em 3em 3em;

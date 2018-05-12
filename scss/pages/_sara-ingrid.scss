@@ -38,4 +38,10 @@
   #winter {
     @include long-song;
   }
+  a {
+    color: $maximum-red;
+    &:hover {
+      color: $ceil;
+    }
+  }
 }
