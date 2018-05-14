@@ -209,6 +209,12 @@ body {
     margin-bottom: 1em;
     font-family: 'Syncopate', sans-serif;
     text-shadow: 5px 5px 1px #22181C; }
+  .header a {
+    color: #C14A23;
+    text-decoration: none;
+    font-weight: bold; }
+    .header a:hover {
+      color: #22181C; }
   @media screen and (max-width: 525px) {
     .header {
       padding: 1em 2em 0;
